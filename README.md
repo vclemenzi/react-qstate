@@ -1,5 +1,5 @@
-# Query State
-Query State is a simple library that allows states to be saved in url parameters. The benefits can be various:
+# State Query
+State Query is a simple library that allows states to be saved in url parameters. The benefits can be various:
 
 - Have the exactly same UI
   - A user can share the link on social and whoever clicks on it will have the same ui
