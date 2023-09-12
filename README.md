@@ -31,7 +31,7 @@ bun add qstate
 Its use is very simple and familiar with the existing `useState` hook
 
 ```js
-import { useQueryState } from "qstate";
+import { useQueryState } from "state-query";
 
 function App() {
   const [count, setCount] = useQueryState("counter", 0);
