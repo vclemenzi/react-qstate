@@ -1,5 +1,5 @@
-# State Query
-State Query is a simple library that allows states to be saved in url parameters. The benefits can be various:
+# Cerry 
+Cerry is a simple library that allows states to be saved in url parameters. The benefits can be various:
 
 - Have the exactly same UI
   - A user can share the link on social and whoever clicks on it will have the same ui
@@ -12,26 +12,26 @@ State Query is a simple library that allows states to be saved in url parameters
 You can install it with your favorite package manger
 
 ```bash
-npm install state-query
+npm install cerry
 ```
 
 ```bash
-pnpm add state-query
+pnpm add cerry
 ```
 
 ```bash
-yarn add state-query
+yarn add cerry
 ```
 
 ```bash
-bun add state-query
+bun add cerry
 ```
 
 ## Usage
 Its use is very simple and familiar with the existing `useState` hook
 
 ```js
-import { useQueryState } from "state-query";
+import { useQueryState } from "cerry";
 
 function App() {
   const [count, setCount] = useQueryState("counter", 0);
