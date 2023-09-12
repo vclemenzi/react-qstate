@@ -12,19 +12,19 @@ State Query is a simple library that allows states to be saved in url parameters
 You can install it with your favorite package manger
 
 ```bash
-npm install qstate
+npm install state-query
 ```
 
 ```bash
-pnpm add qstate
+pnpm add state-query
 ```
 
 ```bash
-yarn add qstate
+yarn add state-query
 ```
 
 ```bash
-bun add qstate
+bun add state-query
 ```
 
 ## Usage
