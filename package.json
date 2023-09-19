@@ -1,7 +1,7 @@
 {
-  "name": "cerry",
+  "name": "react-qstate",
   "version": "1.0.0",
-  "description": "Cerry: A react hook that allows the state to be saved in the URL",
+  "description": "React Qstate: A react hook that allows the state to be saved in the URL",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vclemenzi/cerry"
+    "url": "https://github.com/vclemenzi/react-qstate"
   },
   "keywords": [
     "react",

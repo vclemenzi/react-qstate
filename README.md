@@ -1,5 +1,5 @@
-# Cerry 
-Cerry is a simple library that allows states to be saved in url parameters. The benefits can be various:
+# React Query State
+react-qstate is a simple library that allows states to be saved in url parameters. The benefits can be various:
 
 - Have the exactly same UI
   - A user can share the link on social and whoever clicks on it will have the same ui
@@ -12,26 +12,26 @@ Cerry is a simple library that allows states to be saved in url parameters. The 
 You can install it with your favorite package manger
 
 ```bash
-npm install cerry
+npm install react-qstate
 ```
 
 ```bash
-pnpm add cerry
+pnpm add react-qstate
 ```
 
 ```bash
-yarn add cerry
+yarn add react-qstate
 ```
 
 ```bash
-bun add cerry
+bun add react-qstate
 ```
 
 ## Usage
 Its use is very simple and familiar with the existing `useState` hook
 
 ```js
-import { useQueryState } from "cerry";
+import { useQueryState } from "react-qstate";
 
 function App() {
   const [count, setCount] = useQueryState("counter", 0);
