@@ -17,7 +17,7 @@ function TestComponent() {
   );
 }
 
-test('does the url update', () => {
+test('does the url update for numbers', () => {
   const { getByText } = render(<TestComponent />);
   const incrementButton = getByText('Increment');
 
