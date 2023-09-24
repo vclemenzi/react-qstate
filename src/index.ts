@@ -5,9 +5,20 @@ function typeSafeParam<T>(param: string, initialState: T | (() => T)): T {
     return parseInt(param) as T || initialState as T;
   } else if (typeof initialState === "boolean") {
     return Boolean(param) as T || initialState as T;
+  } else if (typeof initialState === "function") {
+    // @ts-ignore
+    const r = initialState();
+
+    if (typeof r === "number") {
+      return parseInt(param) as T || r as T;
+    } else if (typeof r === "boolean") {
+      return Boolean(param) as T || r as T;
+    }
   } else {
     return param.toString() as T || initialState as T;
   }
+
+  return initialState as T;
 }
 
 function useQueryState<T>(name: string, initialState: T | (() => T)): [T, Dispatch<SetStateAction<T>>] {
